@@ -3,9 +3,9 @@ package interceptors
 import (
 	"context"
 
-	capauth "github.com/nucleuskit/nucleus/cap/auth"
-	nucleuscontext "github.com/nucleuskit/nucleus/core/context"
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
+	capauth "github.com/nucleuskit/cap/auth"
+	nucleuscontext "github.com/nucleuskit/core/context"
+	coreerrors "github.com/nucleuskit/core/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

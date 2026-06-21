@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	capauth "github.com/nucleuskit/nucleus/cap/auth"
-	captrace "github.com/nucleuskit/nucleus/cap/trace"
+	capauth "github.com/nucleuskit/cap/auth"
+	captrace "github.com/nucleuskit/cap/trace"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

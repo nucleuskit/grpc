@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nucleuskit/nucleus/core/inbound"
+	"github.com/nucleuskit/core/inbound"
 	"google.golang.org/grpc/metadata"
 )
 

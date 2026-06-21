@@ -1,8 +1,12 @@
-module github.com/nucleuskit/nucleus/runtime/grpc
+module github.com/nucleuskit/grpc
 
 go 1.26.3
 
-
+require (
+	github.com/nucleuskit/cap v0.1.0-alpha.2
+	github.com/nucleuskit/core v0.1.0-alpha.2
+	google.golang.org/grpc v1.81.1
+)
 
 require (
 	go.opentelemetry.io/otel v1.44.0 // indirect

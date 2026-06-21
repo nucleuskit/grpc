@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	capdiscovery "github.com/nucleuskit/nucleus/cap/discovery"
+	capdiscovery "github.com/nucleuskit/cap/discovery"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/attributes"
 	grpcresolver "google.golang.org/grpc/resolver"

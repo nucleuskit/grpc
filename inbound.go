@@ -3,8 +3,8 @@ package runtimegrpc
 import (
 	"context"
 
-	nucleuscontext "github.com/nucleuskit/nucleus/core/context"
-	"github.com/nucleuskit/nucleus/core/inbound"
+	nucleuscontext "github.com/nucleuskit/core/context"
+	"github.com/nucleuskit/core/inbound"
 	"google.golang.org/grpc/metadata"
 )
 

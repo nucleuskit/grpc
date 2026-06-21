@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	capdiscovery "github.com/nucleuskit/nucleus/cap/discovery"
+	capdiscovery "github.com/nucleuskit/cap/discovery"
 	"google.golang.org/grpc/connectivity"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/resolver"

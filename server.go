@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	grpcinterceptors "github.com/nucleuskit/nucleus/runtime/grpc/interceptors"
+	grpcinterceptors "github.com/nucleuskit/grpc/interceptors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/health"
